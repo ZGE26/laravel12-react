@@ -20,19 +20,6 @@ interface User {
     email: string;
 }
 
-const daftarUsers: User[] = [
-    { id: 1, name: 'John Doe', email: 'jhone@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-    { id: 2, name: 'Jane Smith', email: 'smit@test.com' },
-]
-
-
 export default function Dashboard() {
 
     const [daftarUsers, setDaftarUsers] = useState<User[]>([]);
